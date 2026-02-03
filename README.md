@@ -1,6 +1,6 @@
 # 🚀 User Registration System - Spring Boot & MySQL
 
-![Java](https://img.shields.io/badge/Java-17-orange)
+![Java](https://img.shields.io/badge/Java-25-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-Frontend-38bdf8)
