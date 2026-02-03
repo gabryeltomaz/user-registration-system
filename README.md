@@ -4,7 +4,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-Frontend-38bdf8)
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
 
 ---
 
