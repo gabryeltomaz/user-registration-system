@@ -50,6 +50,3 @@ It was built to practice full stack Java web development concepts.
 - JavaScript
 
 ---
-
-## 📁 Project Structure
-
