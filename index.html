@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="./script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-white">
+
+
+    <section class="flex-col justify-center text-center ">
+
+        
+        <h2 class="text-5xl font-semibold text-blue-950">Cadastrar nova conta</h2>
+        <a class="font-semibold text-blue-950">Insira suas informações para cadastrar</a>
+
+
+    </section>
+
+    <section class="w-full max-w-lg">
+
+        <form action="" class="p-3">
+            <section class="p-10">
+
+                <div>
+                    <label for="nome" class="block text-sm/6 font-medium text-blue-950">Nome</label>
+                    <input type="text" name="nome" placeholder="Jose Silva" class="nome drop-shadow-md block font-color-white w-full rounded-md bg-[#f4faff] px-3.5 py-2 text-base placeholder:text-blue-900/30 border border-blue-100/50">
+                </div>
+
+                <div class="mt-2.5">
+                    <label for="email" class="block text-sm/6 font-medium text-blue-950">Email</label>
+                    <input type="text" name="email" placeholder="josesilva@gmail.com" class="email drop-shadow-md block w-full rounded-md bg-[#f4faff] px-3.5 py-2 text-base placeholder:text-blue-900/30 border border-blue-100/50">
+                </div>
+
+                <div class="mt-2.5">
+                    <label for="tel" class="block text-sm/6 font-medium text-blue-950">Telefone</label>
+                    <input type="text" name="tel" placeholder="(00) 00000-0000" class="tel drop-shadow-md block w-full rounded-md bg-[#f4faff] px-3.5 py-2 text-base placeholder:text-blue-900/30 border border-blue-100/50">
+                </div>
+                
+                <div class="mt-2.5">
+                    <label for="senha" class="block text-sm/6 font-medium text-blue-950">Senha</label>
+                    <input type="password" name="senha" placeholder="°°°°" class="senha drop-shadow-md block w-full rounded-md bg-[#f4faff] px-3.5 py-2 text-base placeholder:text-blue-900/30 border border-blue-100/50">
+                </div>
+
+                <div class="flex flex-row mt-5 justify-center gap-4">
+                    <input type="checkbox" class="checked:accent-blue-700 w-4">
+                    <p>Concordo com os 
+                        
+                        <a href="#" class="text-blue-500">termos de uso</a>
+                    
+                    </p>
+                </div>
+
+                <div class="mt-5">
+                    <button class="drop-shadow-md block text-white bg-[#1e3a8a] font-bold px-3.5 py-2 w-full rounded-md text-base hover:bg-blue-950 ">
+                        Cadastrar
+                    </button>
+                </div>
+                
+                <div class="mt-5 flex justify-around gap-4">
+                    <button class=" drop-shadow-md border flex flex-row justify-center p-3 rounded-full w-1/2 items-center hover:bg-gray-50">
+
+                        <img src="./assets/google.png" alt="" class="w-6 mr-3">
+                        
+                        Google
+                    </button>
+
+
+                    <button class="drop-shadow-md border flex flex-row justify-center p-3 rounded-full w-1/2 items-center hover:bg-gray-50">
+                        
+                        <img src="./assets/icons8-github-30.png" alt="" class="w-7 mr-3">
+
+                        Github
+                    
+                    </button>
+                </div>
+
+            </section>
+        </form>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
